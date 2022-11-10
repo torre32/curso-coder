@@ -1,0 +1,10 @@
+.grid-container{
+    display: grid;
+    background-color: thistle;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 2fr);
+
+    border: 1px solid black;
+
+    justify-items: flex-start;
+}
